@@ -24,17 +24,17 @@ public class Matcher{
 }
 
 
-static String group() {
+static Object group() {
 	// TODO Auto-generated method stub
 	return group();
 }
 
-static String end() {
+static int end() {
 	// TODO Auto-generated method stub
 	return end();
 }
 
-static String start() {
+static int start() {
 	// TODO Auto-generated method stub
 	return start();
 }
