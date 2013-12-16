@@ -4,35 +4,14 @@
  */
 package matcher.mk.i;
 
-import java.util.regex.Pattern;
 /**
  *
  * @author Ikkileo
  */
 public class Matcher{
 	 public static void main(String[] args) {
-	      
-	    
-	
-
-
-String emailRegEx = "(\\w+)@(\\w+\\.)(\\w+)(\\.\\w+)*";
-
-Pattern pattern = Pattern.compile(emailRegEx);
-
- 
- 
- String targetString = "You can email me at g_andy@example.com or andy@example.net to get more info";
-
-java.util.regex.Matcher matcher; {
-
- matcher = pattern.matcher(targetString);
- 
- while(matcher.find()) {
-	 System.out.println("Found a Match" + Matcher.group());
-	 System.out.println("Start position: " + Matcher.start()); 
-     System.out.println("End position: " + Matcher.end()); 
- }}
+		 
+		 RunMatchSequence.main(args);
  
 //implements MatchResult {
   //  Pattern p = Pattern.compile("a*b");
@@ -44,17 +23,18 @@ java.util.regex.Matcher matcher; {
     
 }
 
-private static String group() {
+
+static String group() {
 	// TODO Auto-generated method stub
 	return group();
 }
 
-private static String end() {
+static String end() {
 	// TODO Auto-generated method stub
 	return end();
 }
 
-private static String start() {
+static String start() {
 	// TODO Auto-generated method stub
 	return start();
 }
