@@ -10,6 +10,11 @@ import java.util.regex.Pattern;
  * @author Ikkileo
  */
 public class Matcher{
+	 public static void main(String[] args) {
+	      
+	    
+	
+
 
 String emailRegEx = "(\\w+)@(\\w+\\.)(\\w+)(\\.\\w+)*";
 
@@ -19,7 +24,7 @@ Pattern pattern = Pattern.compile(emailRegEx);
  
  String targetString = "You can email me at g_andy@example.com or andy@example.net to get more info";
 
-private java.util.regex.Matcher matcher; {
+java.util.regex.Matcher matcher; {
 
  matcher = pattern.matcher(targetString);
  
@@ -27,7 +32,7 @@ private java.util.regex.Matcher matcher; {
 	 System.out.println("Found a Match" + Matcher.group());
 	 System.out.println("Start position: " + Matcher.start()); 
      System.out.println("End position: " + Matcher.end()); 
- }
+ }}
  
 //implements MatchResult {
   //  Pattern p = Pattern.compile("a*b");
@@ -40,17 +45,18 @@ private java.util.regex.Matcher matcher; {
 }
 
 private static String group() {
-	return null;
+	// TODO Auto-generated method stub
+	return group();
 }
 
 private static String end() {
 	// TODO Auto-generated method stub
-	return null;
+	return end();
 }
 
 private static String start() {
 	// TODO Auto-generated method stub
-	return null;
+	return start();
 }
 
 }
