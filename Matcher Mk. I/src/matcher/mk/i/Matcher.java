@@ -11,7 +11,11 @@ import java.util.regex.Pattern;
  *
  * @author Ikkileo
  */
-public class Matcher extends Object
+public class Matcher extends Object{
+
+String emailRegEx = "(\w+)@(\w+\.)(\w+)(\.\w+)*";
+
+Pattern pattern = Pattern.compile(emailRegEx);
 implements MatchResult {
     Pattern p = Pattern.compile("a*b");
     java.util.regex.Matcher m = p.matcher("aaaaab");
@@ -52,7 +56,7 @@ implements MatchResult {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
-}
+}}
 // testetsteststetststestests hoi 1337
 // (>O.O)> l33t x infity
 // rainbow bunchie
