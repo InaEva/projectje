@@ -4,16 +4,16 @@ import java.util.regex.Pattern;
 
 import javax.swing.JOptionPane;
 
+@SuppressWarnings("unused")
 public class RunMatchSequence {
 	
-
 	public static void main(String[] args) {
 		try {
 			
 		
 		
-	//	String emailRegEx = "(\\w+)@(\\w+\\.)(\\w+)(\\.\\w+)*";
-			String emailRegEx = "(?s).*";
+		String emailRegEx = "(\\w+)@(\\w+\\.)(\\w+)(\\.\\w+)*";
+		//	String emailRegEx = "(?s).*";
 		Pattern pattern = Pattern.compile(emailRegEx);
 
 		 
@@ -25,9 +25,8 @@ public class RunMatchSequence {
 		 matcher = pattern.matcher(target);
 		 
 		 while(matcher.find()) {
-			 System.out.println("Found a Match" + Matcher.group());
-			 System.out.println("Start position: " + Matcher.start()); 
-		     System.out.println("End position: " + Matcher.end()); 
+			 System.out.println("Found a Match: " + matcher.group());
+		
 		      }}} catch (StackOverflowError e) {
 		    	  System.out.println("Stackoverflow");
 					//JOptionPane.showMessageDialog(null, "Stackoverflow");
