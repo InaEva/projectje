@@ -35,39 +35,22 @@ private java.util.regex.Matcher matcher; {
 // boolean b = m.matches();
 //}
     
-public static int start() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 
     
-    public int start(int group) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+}
 
-    
-    public static int end() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+private static String group() {
+	return null;
+}
 
-    
-    public int end(int group) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+private static String end() {
+	// TODO Auto-generated method stub
+	return null;
+}
 
-    public static String group() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    
-    public String group (int group) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    
-    public int groupCount() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
+private static String start() {
+	// TODO Auto-generated method stub
+	return null;
 }
 
 }
