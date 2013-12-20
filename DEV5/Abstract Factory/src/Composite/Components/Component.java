@@ -3,18 +3,7 @@
  */
 package Composite.Components;
 
-/**
- * PatternBox: "Component" implementation.
- * <ul>
- *   <li>declares the interface for objects in the composition.</li>
- *   <li>implements default behavior for the interface common to all classes, as appropriate.</li>
- *   <li>declares an interface for accessing and managing its child components.</li>
- *   <li>(optional) defines an interface for accessing a component's parent in the recursive structure, and implements it if that's appropriate.</li>
- * </ul>
- * 
- * @author Dirk Ehms, <a href="http://www.patternbox.com">www.patternbox.com</a>
- * @author Home
- */
+
 public abstract class Component {
 
 	/** 
