@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<pattern id="composite">
+ <role name="Component">
+  <member name="Component" package="Composite.Components" project="Patterns"/>
+ </role>
+ <role name="Leaf">
+  <member name="Leaf" package="Composite.leafs" project="Patterns"/>
+ </role>
+ <role name="Composite">
+  <member name="Composite" package="Composite.Composites" project="Patterns"/>
+ </role>
+ <role name="Client">
+  <member name="ClientCompositeBurger" package="client" project="Patterns"/>
+ </role>
+</pattern>
