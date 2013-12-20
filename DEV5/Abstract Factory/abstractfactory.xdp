@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<pattern id="abstractfactory">
+ <role name="AbstractFactory">
+  <member name="BurgerIngredientFactory" package="abstractFactory" project="Abstract Factory"/>
+ </role>
+ <role name="ConcreteFactory">
+  <member name="Hamburger" package="concreteFactory" project="Abstract Factory"/>
+ </role>
+ <role name="AbstractProduct">
+  <member name="Buns" package="abstractProduct.buns" project="Abstract Factory"/>
+ </role>
+ <role name="ConcreteProduct">
+  <member name="RegularBun" package="abstractProduct.buns" project="Abstract Factory"/>
+  <member name="SesameBun" package="abstractProduct.buns" project="Abstract Factory"/>
+  <member name="WholeWheatBun" package="abstractProduct.buns" project="Abstract Factory"/>
+  <member name="BeefPatty" package="abstractProduct.patties" project="Abstract Factory"/>
+  <member name="ChickenPatty" package="abstractProduct.patties" project="Abstract Factory"/>
+  <member name="VeggiePatty" package="abstractProduct.patties" project="Abstract Factory"/>
+  <member name="Mayonaise" package="abstractProduct.sauces" project="Abstract Factory"/>
+  <member name="Mustard" package="abstractProduct.sauces" project="Abstract Factory"/>
+  <member name="Ketchup" package="abstractProduct.sauces" project="Abstract Factory"/>
+  <member name="Lettuce" package="abstractProduct.toppings" project="Abstract Factory"/>
+  <member name="Tomato" package="abstractProduct.toppings" project="Abstract Factory"/>
+  <member name="Pickles" package="abstractProduct.toppings" project="Abstract Factory"/>
+ </role>
+ <role name="Client">
+  <member name="Burger" package="Client" project="Abstract Factory"/>
+ </role>
+</pattern>
