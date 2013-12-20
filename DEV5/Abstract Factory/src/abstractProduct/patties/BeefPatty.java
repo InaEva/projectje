@@ -15,7 +15,7 @@ import abstractProduct.buns.Buns;
  * @author Dirk Ehms, <a href="http://www.patternbox.com">www.patternbox.com</a>
  * @author Home
  */
-public class BeefPatty implements Buns {
+public class BeefPatty implements Buns, Patties {
 
 	/** 
 	 * This construtor creates a ConcreteProduct instance.
@@ -24,11 +24,18 @@ public class BeefPatty implements Buns {
 		super();
 	}
 
-	/** 
-	 * This is just a dummy method that can be called by the client. Replace
-	 * this method by another one which you really need.
-	 */
-	public void doSomething() {
+	@Override
+	public void createBun() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void createPatty() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
+
+

@@ -9,23 +9,18 @@ import abstractProduct.buns.SesameBun;
 import abstractProduct.buns.WholeWheatBun;
 import abstractProduct.patties.BeefPatty;
 import abstractProduct.patties.ChickenPatty;
+import abstractProduct.patties.Patties;
 import abstractProduct.patties.VeggiePatty;
 import abstractProduct.sauces.Ketchup;
 import abstractProduct.sauces.Mayonaise;
 import abstractProduct.sauces.Mustard;
+import abstractProduct.sauces.Sauces;
 import abstractProduct.toppings.Lettuce;
 import abstractProduct.toppings.Pickles;
 import abstractProduct.toppings.Tomato;
+import abstractProduct.toppings.Toppings;
 
-/**
- * PatternBox: "AbstractFactory" implementation.
- * <ul>
- *   <li>declares an interface for operations that create abstract product objects.</li>
- * </ul>
- * 
- * @author Dirk Ehms, <a href="http://www.patternbox.com">www.patternbox.com</a>
- * @author Home
- */
+
 public interface BurgerIngredientFactory {
 
 	/** 
@@ -46,46 +41,46 @@ public interface BurgerIngredientFactory {
 	/** 
 	 * This method returns an instance of a AbstractProduct implementation
 	 */
-	public Buns createBeefPatty();
+	public Patties createBeefPatty();
 
 	/** 
 	 * This method returns an instance of a AbstractProduct implementation
 	 */
-	public Buns createChickenPatty();
+	public Patties createChickenPatty();
 
 	/** 
 	 * This method returns an instance of a AbstractProduct implementation
 	 */
-	public Buns createVeggiePatty();
+	public Patties createVeggiePatty();
 
 	/** 
 	 * This method returns an instance of a AbstractProduct implementation
 	 */
-	public Buns createMayonaise();
+	public Sauces createMayonaise();
 
 	/** 
 	 * This method returns an instance of a AbstractProduct implementation
 	 */
-	public Buns createMustard();
+	public Sauces createMustard();
 
 	/** 
 	 * This method returns an instance of a AbstractProduct implementation
 	 */
-	public Buns createKetchup();
+	public Sauces createKetchup();
 
 	/** 
 	 * This method returns an instance of a AbstractProduct implementation
 	 */
-	public Buns createLettuce();
+	public Toppings createLettuce();
 
 	/** 
 	 * This method returns an instance of a AbstractProduct implementation
 	 */
-	public Buns createTomato();
+	public Toppings createTomato();
 
 	/** 
 	 * This method returns an instance of a AbstractProduct implementation
 	 */
-	public Buns createPickles();
+	public Toppings createPickles();
 
 }
