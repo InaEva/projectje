@@ -11,9 +11,6 @@ import Composite.Components.Component;
  *   <li>represents leaf objects in the composition. A leaf has no children.</li>
  *   <li>defines behavior for primitive objects in the composition.</li>
  * </ul>
- * 
- * @author Dirk Ehms, <a href="http://www.patternbox.com">www.patternbox.com</a>
- * @author Home
  */
 public class Leaf extends Component {
 
